@@ -6,7 +6,7 @@ import axios, {
 } from 'axios'
 import isObject from 'lodash-es/isObject'
 import qs from 'qs'
-import { useToken } from '@/store/user.ts'
+import { useToken } from '@/store/user'
 import { yfAlert } from '@/utils/message'
 import { Paths } from '.'
 import { RequestConfig, Result, UrlConfigs } from './@type'
